@@ -1,0 +1,121 @@
+ul li {
+    display: inline;
+    margin-right: 20px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font: source-sans-pro;
+    float: right;
+    margin-top: 20px;
+    margin-right: 35px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    font: source-sans-pro;
+}
+ul li a:hover {
+    color: blue;
+}
+nav.ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+img.headerlogo {
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-image: url('Object.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+div.school {
+    align-items: center;
+    text-align: center;
+}
+div.school h1 {
+    font-size: 48px;
+    color: white;
+    font: source-sans-pro;
+    bottom: 0px;
+    margin-bottom: 0px;
+}
+div.school span {
+    font-size: 12px;
+    color: white;
+    display: inline-block;
+    margin: 0px 15px;
+}
+button {
+    background-color: #C271FF;
+    border: none;
+    border-radius: 22px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    font: source-sans-pro;
+    align-items: center;
+}
+button:hover {
+    background-color:green;
+}   
+div.pros {
+    align-items: center;
+    text-align: center;
+}
+div.pros h2 span {
+    color: #C271FF;
+}
+div.pros h2 {
+    font-size: 24px;
+    color: white;
+    font: source-sans-pro;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+div.pro img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+div.pros {
+    flex-direction: column;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+div.pro {
+    display: inline-block;
+    margin: 20px;
+}
+div.pros p {
+    color: white;
+    font-size: 14px;
+    font: source-sans-pro;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+div.pros h3 {
+    color: white;
+    font-size: 18px;
+    font: source-sans-pro;
+    margin-top: 10px;
+}
