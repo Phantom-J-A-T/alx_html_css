@@ -1,0 +1,119 @@
+body {
+  display: block;
+  background-image: url("headphones_hero_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logo {
+  color: white;
+  float: left;
+  padding: 20px;
+  width: 200px;
+  height: 40px;
+  padding-left: 60px;
+}
+nav ul{
+  float: right;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  padding-right: 50px;
+}
+nav ul li {
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li:hover {
+  color: red;
+}
+.top-content {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  margin: 0 auto;
+  color: white;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.top-content button {
+  background-color: #FF6565;
+  border-radius: 25px;
+  color: white;
+  padding: 15px;
+  width: 200px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* HIDE nav and show hamburger button */
+.navbar, #Open-navbar {
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 90%; 
+    transition: 300ms ease-in-out;
+  }
+  nav.open {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+    .open {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .nav {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      color: white;
+      margin-top: 40px;
+    }
+    
+    .navbar {
+      background: none;
+      border: none;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+    #Open-navbar, #Close-navbar {
+     display: block;
+     font-size: 30px;
+     color: white;
+     background: none;
+     border: none;
+     cursor: pointer;
+     margin-left: 0;         /* No float needed */
+     margin-right: auto;
+    } 
+    .logo {
+      max-width: 100%; /* Ensures it scales properly */
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  
+}
