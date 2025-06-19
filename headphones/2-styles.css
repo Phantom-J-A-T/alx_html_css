@@ -95,10 +95,58 @@ nav ul li a:hover {
   height: 650px;
   align-content: center;
 }
+.result img {
+  width: 50px;
+  height: 50px;
+}
+.result-middle {
+  background-image: url("headphones_hero_2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 650px;
+}
 
 
+.result-head {
+  width: 50%;
+  margin: 0 auto;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  padding-top: 70px;
+}
 
-
+.result-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.data {
+  width: 120px;
+  height: 120px;
+  padding: 70px;
+  position: relative;
+}
+.data img {
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+.data p {
+  position: absolute;
+  top: 60%; /* center vertically */
+  left: 65%; /* center horizontally */
+  transform: translate(-50%, -50%); /* exact center */
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+}
 
 
 @media screen and (max-width: 800px) {
