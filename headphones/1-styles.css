@@ -68,6 +68,7 @@ nav ul li:hover {
   margin: 0 auto;
   height: 50px;
   text-align: center;
+  margin-bottom: 50px;
 }
 .card {
   display: flex;
@@ -96,6 +97,12 @@ nav ul li:hover {
 
 
 @media screen and (max-width: 800px) {
+  body {
+    background-image: url("headphones_hero_1.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top; /* Adjust background position for smaller screens */
+  }
   nav ul {
     display: flex;
     flex-direction: column;
@@ -154,5 +161,22 @@ nav ul li:hover {
       left: 50%;
       transform: translateX(-50%);
   }
-  
+  .mid-content {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center cards horizontally */
+    width: 100%; /* Full width for smaller screens */
+    align-content: center;
+  }
+  .mid-head {
+    width: 100%; /* Full width for smaller screens */
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+  }
+  .middle {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 20px; /* Add padding for better spacing */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: auto;
+  }
 }
