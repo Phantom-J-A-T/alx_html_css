@@ -1,0 +1,370 @@
+body {
+  display: block;
+  background-image: url("headphones_hero_1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.logo {
+  color: white;
+  float: left;
+  padding: 20px;
+  width: 200px;
+  height: 40px;
+  padding-left: 60px;
+}
+nav ul{
+  float: right;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  padding-right: 50px;
+}
+nav ul li {
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  color: red;
+}
+.top-content {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  margin: 0 auto;
+  color: white;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.action-btn {
+  background-color: #FF6565;
+  border-radius: 25px;
+  color: white;
+  padding: 15px;
+  width: 200px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* HIDE nav and show hamburger button */
+.navbar, #Open-navbar {
+  display: none;
+}
+
+.mid-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.mid-head {
+  width: 50%;
+  margin: 0 auto;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+  margin: 20px;
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card span {
+  font-size: 70px;
+  color: #FF6565;
+}
+.middle {
+  height: 650px;
+  align-content: center;
+}
+.result img {
+  width: 50px;
+  height: 50px;
+}
+.result-middle {
+  background-image: url("headphones_hero_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+}
+
+
+.result-head {
+  width: 50%;
+  margin: 0 auto;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  padding-top: 70px;
+}
+
+.result-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.data {
+  width: 120px;
+  height: 120px;
+  padding: 80px;
+  position: relative;
+}
+.data img {
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+.data p {
+  position: absolute;
+  top: 60%; /* center vertically */
+  left: 65%; /* center horizontally */
+  transform: translate(-50%, -50%); /* exact center */
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.contact {
+  width: 100%;
+  height: 650px;
+}
+.contact-us {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  margin: 0 auto;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.contact-us form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+  background-color: #071629;
+  width: 100%;
+  height: 249px;
+  padding-top: 80px;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 20px;
+  color: white;
+  margin-right: 100px;
+}
+.footer-content ul li span {
+  font-size: 30px;
+  float: right;
+  
+  padding: 10px;
+}
+.footer-content img {
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+  float: left;
+  margin-left: 70px;
+}
+footer p {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #FF6565; /* Optional: Change background color on hover */
+  color: white; /* Change text color on hover */
+  border-radius: 25px;
+}
+.card:hover span {
+  color: white; /* Change icon color on hover */
+}
+
+
+@media screen and (max-width: 800px) {
+  body {
+    background-image: url("headphones_hero_1.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top; /* Adjust background position for smaller screens */
+  }
+  .result-middle {
+    background-image: url("headphones_hero_2.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: auto;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 90%; 
+    transition: 300ms ease-in-out;
+  }
+  nav.open {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+    .open {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .nav {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      color: white;
+      margin-top: 40px;
+    }
+    
+    .navbar {
+      background: none;
+      border: none;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+    #Open-navbar, #Close-navbar {
+     display: block;
+     font-size: 30px;
+     color: white;
+     background: none;
+     border: none;
+     cursor: pointer;
+     margin-left: 0;         /* No float needed */
+     margin-right: auto;
+    } 
+    .logo {
+      max-width: 100%; /* Ensures it scales properly */
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  .mid-content {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center cards horizontally */
+    width: 100%; /* Full width for smaller screens */
+    align-content: center;
+  }
+  .mid-head {
+    width: 100%; /* Full width for smaller screens */
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+  }
+  .middle {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 20px; /* Add padding for better spacing */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: auto;
+  }
+  footer {
+    background-color: #071629;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+  }
+  
+  .footer-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 20px;
+    color: white;
+    margin-right: 100px;
+  }
+  .footer-content ul li span {
+    font-size: 30px;
+    float: right;
+    
+    padding: 10px;
+  }
+  .footer-content img {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+    margin-left: 70px;
+  }
+  footer p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  body {
+    background-image: url("headphones_hero_1.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top; /* Adjust background position for smaller screens */
+  }
+  .result-middle {
+    background-image: url("headphones_hero_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+  }
+}
